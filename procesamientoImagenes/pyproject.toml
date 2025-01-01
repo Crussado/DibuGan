@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "procesamientoimagenes"
+version = "0.1.0"
+description = ""
+authors = ["Julio Olivencia <julioolivencia891@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tensorflow = "^2.18.0"
+matplotlib = "^3.10.0"
+pyqt5 = "^5.15.11"
+ipython = "^8.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
