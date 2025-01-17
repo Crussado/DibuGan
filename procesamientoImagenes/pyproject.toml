@@ -6,11 +6,13 @@ authors = ["Julio Olivencia <julioolivencia891@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
-tensorflow = "^2.18.0"
+python = ">=3.10,<3.12"
+tensorflow = {version = "2.17.1", extras = ["and-cuda"]}
 matplotlib = "^3.10.0"
 pyqt5 = "^5.15.11"
 ipython = "^8.31.0"
+opencv-python = "^4.10.0.84"
+mediapipe = "^0.10.20"
 
 
 [build-system]
